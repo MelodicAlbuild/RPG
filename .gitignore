@@ -46,3 +46,16 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+Assets/Addons
+Assets/Addons.meta
+Assets/Settings
+Assets/Settings.meta
+Assets/Anim
+Assets/Anim.meta
+Packages
+ProjectSettings
+UserSettings
+Assets/Plugins
+Assets/TextMesh Pro
+Assets/TextMesh Pro.meta
