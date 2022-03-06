@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2b2a0d7e673dd64eae6791ebd75144f, type: 3}
+  m_Name: Wand_T3
+  m_EditorClassIdentifier: 
+  Name: Radiant Wand
+  Type: 0
+  Sprite: {fileID: 21300000, guid: 2416f05d9e9cb8c4aa572c5bec51e846, type: 3}
+  attack: 0
+  defense: 0
+  speed: 0
+  health: 0
+  intelect: 0
+  vitality: 0
+  Prefab: {fileID: 5031724932145621315, guid: 47af16166aa0d654e8f7b6633a2b8a43, type: 3}
+  MaxXP: 100
+  Upgrade: {fileID: 0}

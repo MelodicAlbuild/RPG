@@ -285,6 +285,7 @@ MonoBehaviour:
   lookXLimit: 45
   canMove: 1
   weaponContainer: {fileID: 0}
+  offhandContainer: {fileID: 0}
 --- !u!114 &1481996379610646765
 MonoBehaviour:
   m_ObjectHideFlags: 0

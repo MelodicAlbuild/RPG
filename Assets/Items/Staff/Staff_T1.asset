@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2b2a0d7e673dd64eae6791ebd75144f, type: 3}
+  m_Name: Staff_T1
+  m_EditorClassIdentifier: 
+  Name: Dull Staff
+  Type: 0
+  Sprite: {fileID: 21300000, guid: 5b0306b1646c6a1458e655fa0b28ae04, type: 3}
+  attack: 0
+  defense: 0
+  speed: 0
+  health: 0
+  intelect: 0
+  vitality: 0
+  Prefab: {fileID: 4447275473514746072, guid: c5896bf9364a9794aba0ef92f97be516, type: 3}
+  MaxXP: 100
+  Upgrade: {fileID: 11400000, guid: c1af43637eb6f1d46ae1ecd4b24f7949, type: 2}

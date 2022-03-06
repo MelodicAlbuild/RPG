@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2b2a0d7e673dd64eae6791ebd75144f, type: 3}
   m_Name: Spear_T3
   m_EditorClassIdentifier: 
-  Name: Enchanted Spear
+  Name: Radiant Spear
   Type: 0
-  Sprite: {fileID: 21300000, guid: dc21ae8abe4920e4689e6e16ff62058f, type: 3}
+  Sprite: {fileID: 21300000, guid: 3f08c9326e0a58d4fba27cb3ee99842b, type: 3}
   attack: 5
   defense: 2
   speed: 1
   health: 0
   intelect: 5
   vitality: 0
-  Prefab: {fileID: 8136514464943607132, guid: b81691532a2ea1b40a1a29dc17ce1e9c, type: 3}
+  Prefab: {fileID: 6698673777725121512, guid: 5bec28b60d2efa5478e61c0a462d666f, type: 3}
   MaxXP: 100
-  Upgrade: {fileID: 0}
+  Upgrade: {fileID: 11400000, guid: e4cd9bdb19772c64cb7451045aee05ee, type: 2}

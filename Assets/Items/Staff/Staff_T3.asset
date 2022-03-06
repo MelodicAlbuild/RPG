@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2b2a0d7e673dd64eae6791ebd75144f, type: 3}
   m_Name: Staff_T3
   m_EditorClassIdentifier: 
-  Name: Enchanted Staff
+  Name: Radiant Staff
   Type: 0
   Sprite: {fileID: 21300000, guid: 27658fce0d72a0a43893753ff6b12ab0, type: 3}
   attack: 10

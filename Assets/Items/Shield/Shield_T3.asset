@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ee010b8df3e8d46a6802092e13a44c, type: 3}
+  m_Name: Shield_T3
+  m_EditorClassIdentifier: 
+  Name: Radiant Shield
+  Type: 5
+  Sprite: {fileID: 21300000, guid: 01e7ba33aebb1e14e9e02e16c118c8af, type: 3}
+  attack: 0
+  defense: 0
+  speed: 0
+  health: 0
+  intelect: 0
+  vitality: 0
+  Prefab: {fileID: 5906024665046381977, guid: e2ab6ab10c292ce449dad8426c62de7c, type: 3}
+  MaxXP: 100
+  Upgrade: {fileID: 0}

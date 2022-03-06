@@ -12,7 +12,7 @@ public class UIItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     public Slider xpSlider;
     public Button xpButton;
 
-    [Header("Weapon Specific")]
+    [Header("Weapon/Offhand Specific")]
     public int CurrentXP;
 
     private void Awake()
@@ -20,7 +20,7 @@ public class UIItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         if (item != null)
         {
             itemSprite = item.Sprite;
-            if (item.Type == ItemType.Weapon)
+            if (item.Type == ItemType.Weapon || item.Type == ItemType.Offhand)
             {
                 xpSlider.enabled = true;
                 xpButton.enabled = true;
@@ -55,6 +55,21 @@ public class UIItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
                     }
                 }
             }
+
+            if (item.Type == ItemType.Offhand)
+            {
+                xpSlider.value = CurrentXP / 100.0f;
+
+                if (CurrentXP == (item as Offhand).MaxXP)
+                {
+                    if ((item as Offhand).Upgrade != null)
+                    {
+                        item = (item as Offhand).Upgrade;
+                        CurrentXP = 0;
+                        xpSlider.value = 0;
+                    }
+                }
+            }
         }
     }
 
@@ -81,6 +96,18 @@ public class UIItem : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
             else
             {
                 CurrentXP = (item as Weapon).MaxXP;
+            }
+        }
+
+        if (item.Type == ItemType.Offhand)
+        {
+            if (CurrentXP < (item as Offhand).MaxXP)
+            {
+                CurrentXP += amount;
+            }
+            else
+            {
+                CurrentXP = (item as Offhand).MaxXP;
             }
         }
     }

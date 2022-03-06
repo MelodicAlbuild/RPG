@@ -10,5 +10,6 @@ public enum ItemType
     Accessory,
     Armor,
     Consumable,
-    Story
+    Story,
+    Offhand
 }

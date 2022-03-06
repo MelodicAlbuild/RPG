@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2b2a0d7e673dd64eae6791ebd75144f, type: 3}
+  m_Name: Spear_T4
+  m_EditorClassIdentifier: 
+  Name: Blazing Spear
+  Type: 0
+  Sprite: {fileID: 21300000, guid: dc21ae8abe4920e4689e6e16ff62058f, type: 3}
+  attack: 5
+  defense: 2
+  speed: 1
+  health: 0
+  intelect: 5
+  vitality: 0
+  Prefab: {fileID: 8114689419484063520, guid: e698fbc66c4f2cd4ead24a2c219a54b8, type: 3}
+  MaxXP: 100
+  Upgrade: {fileID: 0}

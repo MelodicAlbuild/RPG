@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2b2a0d7e673dd64eae6791ebd75144f, type: 3}
+  m_Name: Wand_T1
+  m_EditorClassIdentifier: 
+  Name: Dull Wand
+  Type: 0
+  Sprite: {fileID: 21300000, guid: aef7e4545d6a4a647b3bd197d4f94b8c, type: 3}
+  attack: 0
+  defense: 0
+  speed: 0
+  health: 0
+  intelect: 0
+  vitality: 0
+  Prefab: {fileID: 3189684279332816433, guid: 0fbfd912bd6e22949af1ef6ad1de12ee, type: 3}
+  MaxXP: 100
+  Upgrade: {fileID: 11400000, guid: 906917fbcf3021e4bb01c738c5095020, type: 2}

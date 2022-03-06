@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ee010b8df3e8d46a6802092e13a44c, type: 3}
+  m_Name: Shield_T2
+  m_EditorClassIdentifier: 
+  Name: Brilliant Shield
+  Type: 5
+  Sprite: {fileID: 21300000, guid: 0e1d8d764d0b52943ae493ede152ffad, type: 3}
+  attack: 0
+  defense: 0
+  speed: 0
+  health: 0
+  intelect: 0
+  vitality: 0
+  Prefab: {fileID: 2021877669523601389, guid: cc65e0d480543194ea7d19ade7e80029, type: 3}
+  MaxXP: 100
+  Upgrade: {fileID: 11400000, guid: df2271e1726a7f0489572a18661ac4df, type: 2}

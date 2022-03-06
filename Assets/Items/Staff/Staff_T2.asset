@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2b2a0d7e673dd64eae6791ebd75144f, type: 3}
   m_Name: Staff_T2
   m_EditorClassIdentifier: 
-  Name: Radiant Staff
+  Name: Brilliant Staff
   Type: 0
   Sprite: {fileID: 21300000, guid: 606fd44b6b508724fa6b810ce2cfb162, type: 3}
   attack: 0

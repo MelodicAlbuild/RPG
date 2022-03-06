@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour
     public ItemContainer weaponContainer;
     private GameObject currentWeapon;
 
+    public ItemContainer offhandContainer;
+    private GameObject currentOffhand;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -57,12 +60,17 @@ public class PlayerController : MonoBehaviour
         if (weaponContainer.activeItem != null)
         {
             Weapon currentWeaponObject = (Weapon)weaponContainer.activeItem.item;
-            if (currentWeapon == null || currentWeapon != currentWeaponObject.Prefab)
+            if (currentWeapon == null || currentWeapon.name != currentWeaponObject.name + "(Clone)")
             {
-                if (currentWeapon != currentWeaponObject.Prefab)
+                if (currentWeapon != null)
                 {
-                    Destroy(currentWeapon);
+                    if (currentWeapon.name != currentWeaponObject.name + "(Clone)")
+                    {
+                        Debug.LogError("Current Weapon Name: " + currentWeapon.name + " | Weapon Object Name: " + currentWeaponObject.name);
+                        Destroy(currentWeapon);
+                    }
                 }
+
                 currentWeapon = Instantiate(currentWeaponObject.Prefab, playerCamera.transform);
             }
         }
@@ -70,6 +78,24 @@ public class PlayerController : MonoBehaviour
         {
             Destroy(currentWeapon);
             currentWeapon = null;
+        }
+
+        if (offhandContainer.activeItem != null)
+        {
+            Offhand currentOffhandObject = (Offhand)offhandContainer.activeItem.item;
+            if (currentOffhand == null || currentWeapon != currentOffhandObject.Prefab)
+            {
+                if (currentOffhand != currentOffhandObject.Prefab)
+                {
+                    Destroy(currentOffhand);
+                }
+                currentOffhand = Instantiate(currentOffhandObject.Prefab, playerCamera.transform);
+            }
+        }
+        else if (currentOffhand != null)
+        {
+            Destroy(currentOffhand);
+            currentOffhand = null;
         }
 
         // Apply gravity. Gravity is multiplied by deltaTime twice (once here, and once below
